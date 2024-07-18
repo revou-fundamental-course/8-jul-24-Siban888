@@ -1,1 +1,48 @@
 /* Ini css */
+body {
+    padding: 16px 25px;
+    margin: 30px 30px;
+}
+
+.main-title {
+    text-align: center;
+}
+
+main {
+    display: contents;
+    justify-content: space-around;
+}
+
+.main-content {
+    flex: 1; 
+    padding: 25px 25px;
+    margin: 30px  30px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.input-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.strong {
+    font-size: 12;
+}
+
+.Submit {
+    color: black;
+    padding: 8px 22px;
+    border-radius: 66px;
+    background: lightseagreen;
+}
+
+button {
+    color: black;
+    padding: 8px 22px;
+    border-radius: 66px;
+    background: whitesmoke;
+}
+
+
+

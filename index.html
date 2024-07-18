@@ -4,8 +4,79 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-    </head>
+        <link rel="stylesheet" href="css/styles.css">
+     </head>
     <body>
-        
+        <header class="main-title">
+            <h1>Calculator BMI</h1>
+        </header>
+
+        <main>
+            <!-- On Content -->
+            <section class="main-content">
+            <!-- Main Article -->
+            <articl>
+                <p></p>
+            </article>
+
+            <!-- Form -->
+            <section>
+                <form>
+                    <div>
+                        <div class="input-title">Jenis Kelamin</div>
+                    <input type="radio" id="selection-man"><label>Laki-Laki</label>
+                    <input type="radio" id="selection-woman"><label>Perempuan</label>
+                </div>
+                <div>
+                    <input type="text" id="berat" placeholder="Berat badan (kg)">
+                    <input type="text" id="tinggi" placeholder="Tinggi badan (cm)">
+                  <div id="result"></div>
+                  <div id="keterangan"></div>
+                </div>
+                <div>
+                    <button onclick="calculateBMI()">Calculate BMI</button>
+                    <button>Reset</button>
+                </div>
+                </form>
+            </section>        
+            </section>
+
+            <!-- Under Content -->
+            <section class="main-content">
+                <!-- Result Article -->
+                <article>
+                    <header>
+                        <h1>Hasil</h1>
+                    </header>
+                
+                <!-- Result Section -->
+                <section id="result">
+                    <p>Hasil Result Adalah:</p>
+                    <h2>00,00</h2>
+                    <p></p>
+                </section>
+                
+                </article>
+            </section>
+        </main>
+         <!-- Form Article --> 
+         <header>
+            <ol type="1">
+                <p class="strong"><b>Keunggulan fitur</b></p>
+                <li>Menghitung berat badan</li>
+                <li>Menentukan kategori berat badan ideal atau tidak</li>
+                <li>Mempersiapkan program berat badan</li>
+            </ol>
+         </header>
+
+        <article>
+            <p>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh<br> 
+                mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya<br> 
+                selain berkonsultasi dengan orang yang memenuhi syarat seperti dokter.</p>
+            <p> Kalkulator akan memberi Anda gambaran tentang perbandingan berat badan Anda dengan nilai<br>
+                 umum. Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam kilogram) dibagi<br>
+                 dengan kuadrat tinggi badan Anda (dalam meter) atau BMI=Kg/M<superscript>2</superscript></p>
+        </article>
+        <script src="script.js"></script>
     </body>
 </html>
